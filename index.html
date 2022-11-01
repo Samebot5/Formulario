@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Estilos.css">
+    <title>Formulario tuenti</title>
+</head>
+<body>
+    <div class="principal">
+        <div class="logo">
+                <img src="img/Logo.jfif">
+        </div>
+       <div class="secundario">
+        <p>Unete a tuenti</p>
+        <p>Todos los campos son obligatorios</p>
+        <div class="item">
+            <label for="txtNombre txtApellidos">
+                <p>Nombre:</p>
+                <input type="text" id="txtNombre" placeholder="Nombre">
+                <input type="text" id="txtApellidos" placeholder="Apellidos">
+            </label>
+        </div>
+        <div class="item">
+            <label for="txtEmail">
+                <p>Email:</p><input type="email" id="txtEmail" placeholder="Email">
+             </label>
+        </div>
+        <div class="item">
+            <label for="txtSexo">
+                <p>Sexo:</p> <p>Masculino:</p> <input type="checkbox" id="txtSexo"> <p>Femenino:</p> <input type="checkbox" id="txtSexo">
+            </label>
+        </div>
+        <div class="item">
+            <label for="txtNac">
+                <p>Fecha de nacimiento:</p> <input type="date" id="txtNac">
+                <p>La edad minima para acceder es de 14 años</p>
+            </label>
+        </div>
+        <div class="item">
+            <label for="txtPassword">
+                <p>Contraseña:</p>  <input type="password" id="txtPassword" placeholder="Contraseña">
+                <label for="txtNac">
+                    <p>Consejos para elejir una Contraseña</p>
+
+            </label>
+        </div>
+        <div class="item">
+            <label for="txtNumero">
+                <p>Numero movil de telefono:</p>  <input type="tel" id="txtNumero">
+            </label>
+        </div>
+
+        <footer>
+            <label for="txtTerminos">
+                <input type="checkbox" id="txtTerminos"> Aceptas las Condiciones de uso y la privacidad de tuenti y que tuenti te envie comunicaciones, incluso por via electronica. Lee un resumen en el decalogo de las condiciones de uso
+            </label>
+        </footer>
+        </div>
+    </div>
+</body>

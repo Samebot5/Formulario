@@ -1,0 +1,39 @@
+:root{
+    --blanco: #ffffff;
+    --negro: #212121;
+    --primario: #007ac5;
+    --gris: #757575;
+
+
+    /* tipo de letra para la pagina */
+--tipo-letra: 'Krub', sans-serif;
+}
+
+  .principal .logo img{
+    display: flex;
+    margin: auto;
+  }
+
+  .principal{
+    width: 1000px;
+    height: 950px;
+    margin: auto;
+    background-color: var(--primario);
+    border-radius: 50px;
+  }
+
+  .secundario{
+    margin: auto;
+    width: 980px;
+    border-radius: 15px;
+    background-color: var(--blanco);
+  }
+
+  .secundario p{
+    font-size: .9rem;
+    text-decoration: var(--tipo-letra);
+  }
+
+  .item{
+    display: flex;
+  }
